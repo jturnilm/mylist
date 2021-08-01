@@ -14,9 +14,11 @@ public class Nodo {
   private  int llave;
     
  private   Nodo siguiente;
+ //siguiente= new Nodo();
  
  
-    Nodo( int n, int l){
+ 
+    Nodo( int n, int l){ //constructor
     this.numero=n;
     
    

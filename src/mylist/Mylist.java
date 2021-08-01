@@ -18,14 +18,27 @@ public class Mylist {
     //
     public static void main(String[] args) {
         // TODO code application logic here
+      
         lista a = new lista();
-        a.insertar(4, 1);
+        a.insertar(0, 0);
         a.imprimir();
-        a.insertar(5, 6);//insertar( int, int)
+        a.insertar(1, 1);//insertar( int, int)
+       
+        a.imprimir();
+        a.insertar(2, 2);//insertar( int, int)
+       
+        a.imprimir();
+        a.insertar(3, 3);//insertar( int, int)
        
         a.imprimir();
         
+        a.insertar(4, 4);
         
+        a.insertar(5,5);
+        
+        a.eliminar(5);
+        
+         a.imprimir();
     }
     
 }
